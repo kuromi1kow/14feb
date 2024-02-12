@@ -6,8 +6,11 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love you too! 😘";
+  gif.style.width = '300px'; // Новая ширина
+  gif.style.height = '300px'; // Новая высота
   gif.src =
-    "image/kotya-unscreen.gif";
+    "image/love u 2.gif";
+  
 });
 
 noBtn.addEventListener("mouseover", () => {
